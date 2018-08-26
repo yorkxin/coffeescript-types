@@ -17,7 +17,7 @@ jobs:
           - v1-dependencies-
 
       - run: npm install
-      - run: npm install --no-save typescript
+      - run: npm install --no-save typescript dtslint
 
       - save_cache:
           paths:
