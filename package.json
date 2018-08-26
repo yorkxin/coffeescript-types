@@ -9,6 +9,10 @@
     "type": "git",
     "url": "https://github.com/chitsaou/coffeescript-types"
   },
+  "scripts": {
+    "lint": "dtslint",
+    "test": "tsc"
+  },
   "license": "MIT",
   "devDependencies": {
     "dtslint": "github:Microsoft/dtslint#production",
