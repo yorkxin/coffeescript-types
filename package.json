@@ -1,6 +1,6 @@
 {
   "name": "coffeescript-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CoffeeScript parser type declarations in TypeScript, used for coffeescript-lsp",
   "main": "index.js",
   "types": "lib/coffeescript/index.d.ts",
