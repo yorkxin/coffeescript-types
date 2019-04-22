@@ -16,6 +16,6 @@
   "license": "MIT",
   "devDependencies": {
     "dtslint": "github:Microsoft/dtslint#production",
-    "coffeescript": "^2.3.1"
+    "coffeescript": "^2.4.1"
   }
 }
