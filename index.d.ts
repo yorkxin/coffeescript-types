@@ -239,8 +239,8 @@ declare namespace Nodes {
     public csx: boolean;
   }
 
-  class SuperCall extends Call {
-  }
+  class DynamicImportCall extends Call {}
+  class SuperCall extends Call {}
 
   class Super extends Base {
     public ancestor: Base;
