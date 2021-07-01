@@ -292,7 +292,7 @@ declare namespace Nodes {
 
   /** import and export */
   class ModuleDeclaration extends Base {
-    public clause: Base;
+    public clause: ImportClause;
     public source: string;
   }
 
@@ -315,9 +315,11 @@ declare namespace Nodes {
   class ModuleSpecifier extends Base {
     public original: Base;
     public alias: Base;
+    public identifier: string;
   }
 
   class ImportSpecifier extends ModuleSpecifier {}
+  class ImportDefaultSpecifier extends ImportSpecifier {}
   class ImportNamespaceSpecifier extends ImportSpecifier {}
   class ExportSpecifier extends ModuleSpecifier {}
 
