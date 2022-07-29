@@ -2,6 +2,8 @@
 
 CoffeeScript Type Declarations for TypeScript.
 
+## :wave: DEPRECATED DUE TO INACTIVE DEVELOPMENT :wave:
+
 ## Purpose
 
 This project was originally used for VScode CoffeeScript Support,
